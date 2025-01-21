@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sadicon-S1 Technical</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<button class="theme-toggle-btn" onclick="toggleTheme()">Change Color</button>
+<div class="resume">
+<!-- Header  -->
+<div class="header">
+<div class="header-left">
+<h1>Althea Zuleika Sadicon</h1>
+<p>Bachelor of Science in Information Technology - Web and Mobile Applications</p>
+</div>
+<img src="mypic.jfif" alt="Profile Picture">
+</div>
+
+<!-- Main Content  -->
+<div class="content">
+<!-- Contact and Skills  -->
+<div class="column">
+<h2>Contact Details</h2>
+<div class="contact-details">
+<div><i class="bi bi-geo-alt-fill"></i> Address: 4A 1444 G. Tuazon St. Brgy 411, Sampaloc Manila</div>
+<div><i class="bi bi-envelope-fill"></i> Email: sadiconaltheazuleika@gmail.com</div>
+<div><i class="bi bi-telephone-fill"></i> Contact: 09260052555</div>
+<div><i class="bi bi-globe"></i> Website: www.altheazlka.com</div>
+</div>
+<br>
+<h2>Skills</h2>
+<ul>
+<li>Fast Learner</li>
+<li>Cooperative</li>
+<li>Excellent Team Player</li>
+<li>Computer Literate</li>
+<li>Has Great Leadership Skills</li>
+<li>Problem Solving Skills</li>
+<li>Has Great Time Management</li>
+</ul>
+
+<h2>Expertise</h2>
+<div class="progress">
+<span>C++</span>
+<div class="progress-bar">
+<div style="width: 95%;"></div>
+</div>
+<div class="scale">
+<span>0</span><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span>
+</div>
+</div>
+<div class="progress">
+<span>Java</span>
+<div class="progress-bar">
+<div style="width: 65%;"></div>
+</div>
+<div class="scale">
+<span>0</span><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span>
+</div>
+</div>
+<div class="progress">
+<span>HTML</span>
+<div class="progress-bar">
+<div style="width: 80%;"></div>
+</div>
+</div>
+<div class="progress">
+<span>JavaScript</span>
+<div class="progress-bar">
+<div style="width: 60%;"></div>
+</div>
+<div class="scale">
+<span>0</span><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span>
+</div>
+</div>
+<div class="progress">
+<span>Python</span>
+<div class="progress-bar">
+<div style="width: 55%;"></div>
+</div>
+<div class="scale">
+<span>0</span><span>10</span><span>20</span><span>30</span><span>40</span><span>50</span>
+</div>
+</div>
+
+<!-- References  -->
+<div class="references">
+<h2>References</h2>
+<p><strong>MR. ARVIN T. NOLASCO, LPT</strong><br>
+SHS Teacher<br>
+Emilio Aguinaldo College - Cavite<br>
+09172084099<br>
+arvin.nolasco@gmail.com</p><br>
+<p><strong>MR. JASON JEREMY Y POCAAN, LPT</strong><br>
+SHS Teacher<br>
+Emilio Aguinaldo College - Cavite<br>
+092114311800<br>
+jasonjeremypocaan@gmail.com</p>
+</div>
+</div>
+
+<!-- Objective and Education  -->
+<div class="column">
+<!-- Objective  -->
+<h2>Objective</h2>
+<p>To be able to work in a company with a healthy environment where I can maximize my potential and abilities in order to have better growth. I am a dedicated, competent, and detail-oriented individual and team player with an eye for detail, with the capacity to go beyond what is expected and achieve company goals.</p>
+
+<h2>Education</h2>
+<ul>
+<li>
+<h4>2011 - 2017<br>QUATIS ELEMENTARY SCHOOL</h4>
+<i>Quatis Ibaba, Gasan Marinduque</i><br>
+<ul>
+<li>Graduated Salutatorian</li>
+<li>Former SSG Officer</li>
+<li>2nd Place Division Photojournalist</li>
+</ul>
+</li>
+<br>
+
+<li>
+<h4>2017 - 2021<br>EASTERN BACOOR NATIONAL HIGH SCHOOL</h4>
+<i>Queen's Row East St. Brgy Queens Row Central, City of Bacoor</i><br><br>
+<ul>
+<li>Consistent Honor Student</li>
+</ul>
+</li>
+<br>
+
+<li>
+<h4>2021 - 2023<br>EMILIO AGUINALDO COLLEGE CAVITE</h4>
+<i>Gov D. Mangubat Ave. Burol Main, Dasmarinas City, Cavite</i><br>
+<ul>
+<li>Consistent Honor Student</li>
+<li>Graduated with High Honor</li>
+<li>Research Leader</li>
+</ul>
+</li>
+<br><br>
+
+<li>
+<h4>2023 - 2027<br>FEU INSTITUTE OF TECHNOLOGY</h4>
+<i>Padre Paredes St. Sampaloc Manila 1015, Metro Manila</i><br>
+<ul>
+<li>Member of ACM Organization</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<script>
+function toggleTheme() {
+const body = document.body;
+const isDarkMode = body.classList.toggle('dark-mode');
+const button = document.querySelector('.theme-toggle-btn');
+button.textContent = isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+}
+</script>
+</body>
+
+</html>
